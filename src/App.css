@@ -1,0 +1,46 @@
+
+.cont{
+    display: flex;
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.btns button{
+    width: 60px;
+}
+.btns{
+    display: flex;
+    gap: 2rem;
+}
+.options, .question, .score{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.score h3, .score h4{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    height: 30px;
+    border: 0;
+    outline: 0;
+}
+
+.selected{
+    background-color: blue;
+}
