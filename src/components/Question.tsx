@@ -1,5 +1,5 @@
-import { Dispatch, SetStateAction, useEffect, useMemo, useState } from "react";
-import { IOption, IQuestion, IUserAnswer } from "./Constant";
+import { useEffect, useMemo, useState } from "react";
+import { IOption, IQuestion } from "./Constant";
 import { useQuiz } from "../context/context";
 
 export const Question: React.FC<IQuestion> = ({
